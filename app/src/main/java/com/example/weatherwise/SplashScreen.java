@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
@@ -18,7 +20,6 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-
         appname=findViewById(R.id.appname);
         lottie=findViewById(R.id.lottie);
         appname.animate().translationY(-1800).setDuration(2700).setStartDelay(0);
