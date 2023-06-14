@@ -1,4 +1,4 @@
-Project Overview: Android Weather App using OpenWeather API
+Weather_Wise : Android Weather App using OpenWeather API
 
 The Android Weather App is designed to provide users with real-time weather information for their current location or any specific city. The app utilizes the OpenWeather API to fetch weather data and displays it in a responsive user interface. 
 
